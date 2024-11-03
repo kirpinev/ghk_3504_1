@@ -25,6 +25,7 @@ const productsTitle = style({
 
 const products = style({
   display: "flex",
+  gap: "0.5rem",
 });
 
 const product = style({
