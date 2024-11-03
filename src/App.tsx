@@ -33,7 +33,7 @@ export const App = () => {
           font="system"
           tag="h3"
           view="medium"
-          weight="regular"
+          weight="semibold"
           className={appSt.productsTitle}
         >
           Детская карта
@@ -69,7 +69,7 @@ export const App = () => {
           font="system"
           tag="h3"
           view="small"
-          weight="regular"
+          weight="semibold"
           className={appSt.productsTitle}
         >
           Карта в приложении у вас и ребёнка
