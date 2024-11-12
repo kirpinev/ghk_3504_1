@@ -33,7 +33,7 @@ export const ThxLayout = () => {
       </div>
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" href="https://alfa.me/KNrZT7">
+        <ButtonMobile block view="primary" href="">
           Подробнее
         </ButtonMobile>
       </div>
