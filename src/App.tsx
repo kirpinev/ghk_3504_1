@@ -7,10 +7,13 @@ import { LS, LSKeys } from "./ls";
 import { appSt } from "./style.css";
 import { ThxLayout } from "./thx/ThxLayout";
 import { Gap } from "@alfalab/core-components/gap";
+import { sendDataToGA } from "./utils/events.ts";
 
 export const App = () => {
   const submit = () => {
-    LS.setItem(LSKeys.ShowThx, true);
+    sendDataToGA().then(() => {
+      LS.setItem(LSKeys.ShowThx, true);
+    });
   };
 
   if (LS.getItem(LSKeys.ShowThx, false)) {
