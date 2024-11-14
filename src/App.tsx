@@ -85,7 +85,7 @@ export const App = () => {
       <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" href="" onClick={submit}>
+        <ButtonMobile block view="primary" href="alfabank://debit_card_showcase?flowType=KIDS" onClick={submit}>
           Выбрать
         </ButtonMobile>
       </div>
