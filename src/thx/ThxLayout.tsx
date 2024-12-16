@@ -21,20 +21,20 @@ export const ThxLayout = () => {
           defaultMargins
           weight="bold"
         >
-          Спасибо за участие
+          Еще чуть-чуть
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium">
-          Вы поучаствовали в очень важном исследовании, которое поможет улучшить
-          продукт. Вы – наш герой!
-        </Typography.Text>
-        <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Пока вы можете ознакомиться со стандартными условиями подписки.
+          Оформить детскую карту вы можете на следующем экране.
         </Typography.Text>
       </div>
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" href="">
-          Подробнее
+        <ButtonMobile
+          block
+          view="primary"
+          href="alfabank://debit_card_showcase?flowType=KIDS"
+        >
+          Оформить карту
         </ButtonMobile>
       </div>
     </>
