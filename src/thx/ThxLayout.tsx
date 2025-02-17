@@ -6,7 +6,7 @@ import { appSt } from "../style.css.ts";
 
 export const ThxLayout = () => {
   return (
-    <><p>{document.cookie}</p>
+    <>
       <div className={thxSt.container}>
         <img
           alt="Картинка ракеты"
